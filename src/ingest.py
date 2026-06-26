@@ -39,7 +39,7 @@ def load_documents(doc_dir: str = "diverse_docs") -> List[Document]:
         try:
             if fpath.suffix.lower() == ".pdf":
                 with pdfplumber.open(str(fpath)) as pdf:
-                    for page_num, page in enumerate(pdf.pages):
+                    for page_num, page in enumerate(pdf.pages[:100]):
                         text = page.extract_text() or ""
                         if text.strip():
                             documents.append(
