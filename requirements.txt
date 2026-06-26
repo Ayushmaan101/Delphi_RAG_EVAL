@@ -12,3 +12,4 @@ tqdm
 python-dotenv
 scikit-learn
 tiktoken
+optimum[onnxruntime]

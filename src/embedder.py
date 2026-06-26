@@ -6,7 +6,7 @@ from tqdm import tqdm
 _model = SentenceTransformer("BAAI/bge-small-en-v1.5")
 
 _QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
-_BATCH_SIZE = 64
+_BATCH_SIZE = 256
 
 
 def encode_texts(texts: List[str], is_query: bool = False) -> List[List[float]]:
