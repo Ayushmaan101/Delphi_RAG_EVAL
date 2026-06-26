@@ -1,0 +1,14 @@
+chromadb
+sentence-transformers
+langchain
+langchain-community
+pypdf
+pdfplumber
+transformers
+torch
+numpy
+pandas
+tqdm
+python-dotenv
+scikit-learn
+tiktoken

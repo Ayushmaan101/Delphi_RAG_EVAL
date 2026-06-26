@@ -1,0 +1,452 @@
+[
+  {
+    "query": "According to the Ancient Rome Wikipedia article, what founding myth did the Romans hold about the origins of their city?",
+    "answer": "The Romans themselves had a founding myth, attributing their city to Romulus and Remus, offspring of Mars and a princess of the mythical city of Alba Longa. The sons, sentenced to death, were rescued by a wolf and returned to restore the Alban king and found a city.",
+    "relevant_doc_id": "ancient_rome.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What military reform did Augustus carry out that secured his control over the Roman army, according to the Ancient Rome Wikipedia article?",
+    "answer": "The creation of the Praetorian Guard and his reforms in the military, creating a standing army with a fixed size of 28 legions, ensured his total control over the army.",
+    "relevant_doc_id": "ancient_rome.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What institutional weakness does the Ancient Rome Wikipedia article identify as a significant reason for the decline of the Roman Empire?",
+    "answer": "The state lacked many institutions, such as a centrally planned budget. Some historians have cited this as a significant reason for the decline of the Roman Empire.",
+    "relevant_doc_id": "ancient_rome.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What trade-related risk factor does Apple's 2025 Form 10-K cite among the causes of volatility in net sales and gross margins?",
+    "answer": "the imposition of new or increased tariffs and other trade restrictions, their overall magnitude and duration, and retaliatory actions in response",
+    "relevant_doc_id": "apple_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What does Apple's 2025 Form 10-K warn about its dependence on revenues from a single product category?",
+    "answer": "The Company generates a significant portion of its net sales from a single product category and a decline in demand for that product could significantly impact net sales and gross margins.",
+    "relevant_doc_id": "apple_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "According to Apple's 2025 Form 10-K, what is the company's primary source of exposure to foreign exchange rate movements?",
+    "answer": "The Company's financial performance is subject to risks associated with changes in the value of the U.S. dollar relative to local currencies. The Company's primary exposure to movements in foreign exchange rates relates to non-U.S. dollar-denominated sales, cost of sales and operating expenses worldwide.",
+    "relevant_doc_id": "apple_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "How does the Transformer architecture in 'Attention Is All You Need' fundamentally differ from dominant sequence transduction models?",
+    "answer": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "relevant_doc_id": "attention_is_all_you_need.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What BLEU score did the Transformer achieve on the WMT 2014 English-to-German translation task, and by how much did it improve on prior results?",
+    "answer": "Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU.",
+    "relevant_doc_id": "attention_is_all_you_need.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "According to the Introduction of 'Attention Is All You Need,' what class of neural networks had been firmly established as state of the art in sequence modeling before the Transformer?",
+    "answer": "Recurrent neural networks, long short-term memory and gated recurrent neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation.",
+    "relevant_doc_id": "attention_is_all_you_need.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What does BERT stand for, and how does it pre-train language representations differently from earlier unidirectional models?",
+    "answer": "BERT, which stands for Bidirectional Encoder Representations from Transformers, is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+    "relevant_doc_id": "bert_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What GLUE score does the BERT paper report, and over how many NLP tasks does BERT achieve state-of-the-art results?",
+    "answer": "It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement).",
+    "relevant_doc_id": "bert_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "According to the BERT paper, how does the feature-based approach to pre-trained language representations differ from the fine-tuning approach?",
+    "answer": "The feature-based approach, such as ELMo, uses task-specific architectures that include the pre-trained representations as additional features. The fine-tuning approach, such as the Generative Pre-trained Transformer, introduces minimal task-specific parameters, and is trained on the downstream tasks by simply fine-tuning all pre-trained parameters.",
+    "relevant_doc_id": "bert_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What does the Wikipedia climate change article state happens to the upper atmosphere and glaciers as global warming progresses?",
+    "answer": "The upper atmosphere is cooling, because greenhouse gases are trapping heat near the Earth's surface, and so less heat is radiating into space. Warming reduces average snow cover and forces the retreat of glaciers.",
+    "relevant_doc_id": "climate_change.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What does the Wikipedia climate change article state about where the thermal energy in the global climate system has been stored since at least 1970?",
+    "answer": "The thermal energy in the global climate system has grown with only brief pauses since at least 1970, and over 90% of this extra energy has been stored in the ocean.",
+    "relevant_doc_id": "climate_change.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "According to the Wikipedia article on climate change, by how much faster are Arctic surface temperatures increasing compared to the rest of the world?",
+    "answer": "Arctic surface temperatures are increasing between three and four times faster than in the rest of the world.",
+    "relevant_doc_id": "climate_change.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "How large was the dataset used to pre-train CLIP, and what pre-training task was used according to the CLIP paper?",
+    "answer": "The simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet.",
+    "relevant_doc_id": "clip_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "According to the CLIP paper, what ImageNet baseline does CLIP match in zero-shot transfer without using training examples?",
+    "answer": "We match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples.",
+    "relevant_doc_id": "clip_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "How does the CLIP model enable zero-shot transfer to downstream computer vision tasks after pre-training?",
+    "answer": "After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks.",
+    "relevant_doc_id": "clip_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What error message does the Docker documentation chat interface display when a user exceeds their daily question quota?",
+    "answer": "You've exceeded your question quota for the day. Please come back tomorrow.",
+    "relevant_doc_id": "docker_overview.txt",
+    "category": "technical"
+  },
+  {
+    "query": "According to the Docker overview page source, what origin and email address are included in the copilot_references sent with each Gordon API request?",
+    "answer": "copilot_references: [{ data: { origin: 'docs-website', email: 'docs@docker.com', uuid: this.getSessionId(), action: 'AskGordon', page_url: window.location.href, page_title: 'What is Docker?' } }]",
+    "relevant_doc_id": "docker_overview.txt",
+    "category": "technical"
+  },
+  {
+    "query": "What API endpoint does the Docker documentation Gordon chat use to submit questions, and what HTTP method is used?",
+    "answer": "const response = await fetch(window.GORDON_BASE_URL + '/public/ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })",
+    "relevant_doc_id": "docker_overview.txt",
+    "category": "technical"
+  },
+  {
+    "query": "What is the stated purpose of the Dodd-Frank Wall Street Reform and Consumer Protection Act as written in the act itself?",
+    "answer": "To promote the financial stability of the United States by improving accountability and transparency in the financial system, to end 'too big to fail', to protect the American taxpayer by ending bailouts, to protect consumers from abusive financial services practices, and for other purposes.",
+    "relevant_doc_id": "dodd_frank_act.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "According to the Dodd-Frank Act's table of contents, which sections of Title I establish the Financial Stability Oversight Council and define its authority?",
+    "answer": "Sec. 111. Financial Stability Oversight Council established. Sec. 112. Council authority. Sec. 113. Authority to require supervision and regulation of certain nonbank financial companies. Sec. 114. Registration of nonbank financial companies supervised by the Board of Governors.",
+    "relevant_doc_id": "dodd_frank_act.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "What body does Subtitle B of Title I of the Dodd-Frank Act establish, and which sections govern its structure and funding?",
+    "answer": "Subtitle B—Office of Financial Research Sec. 152. Office of Financial Research established. Sec. 153. Purpose and duties of the Office. Sec. 154. Organizational structure; responsibilities of primary programmatic units. Sec. 155. Funding. Sec. 156. Transition oversight.",
+    "relevant_doc_id": "dodd_frank_act.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "What does ExxonMobil's 10-K state about the consequences of failing to timely identify and mitigate risks in its management framework?",
+    "answer": "Substantial liabilities and other adverse impacts could result if we do not timely identify and mitigate applicable risks, or if our management systems and controls do not function as intended.",
+    "relevant_doc_id": "exxonmobil_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What sources of cybersecurity disruption does ExxonMobil's 10-K identify as threats to the company?",
+    "answer": "ExxonMobil is regularly subject to attempted cybersecurity disruptions from a variety of sources including state-sponsored actors.",
+    "relevant_doc_id": "exxonmobil_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What does ExxonMobil's 10-K state about the company's ability to obtain insurance coverage against the operational risks it faces?",
+    "answer": "The ability of the Corporation to insure against many of the risks it faces as described in this Item 1A is limited by the availability and cost of coverage, which may not be economic, as well as the capacity of the applicable insurance markets, which may not be sufficient.",
+    "relevant_doc_id": "exxonmobil_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "According to the Federal Trade Commission Act, how many Commissioners compose the FTC and how are they appointed?",
+    "answer": "A commission is created and established, to be known as the Federal Trade Commission, which shall be composed of five Commissioners, who shall be appointed by the President, by and with the advice and consent of the Senate.",
+    "relevant_doc_id": "ftc_act.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "What term lengths does the Federal Trade Commission Act prescribe for the initial Commissioners appointed in 1914?",
+    "answer": "The first Commissioners appointed shall continue in office for terms of three, four, five, six, and seven years, respectively, from September 26, 1914, the term of each to be designated by the President, but their successors shall be appointed for terms of seven years.",
+    "relevant_doc_id": "ftc_act.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "According to § 42 of the Federal Trade Commission Act, what authority does the Commission have regarding the appointment of a secretary and other employees?",
+    "answer": "The Commission shall appoint a secretary, who shall receive a salary, and it shall have authority to employ and fix the compensation of such attorneys.",
+    "relevant_doc_id": "ftc_act.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "What fundamental right does the GDPR cite as the basis for data protection, and which EU Charter article establishes it?",
+    "answer": "The protection of natural persons in relation to the processing of personal data is a fundamental right. Article 8(1) of the Charter of Fundamental Rights of the European Union provides that everyone has the right to the protection of personal data concerning him or her.",
+    "relevant_doc_id": "gdpr_regulation.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "What is the full formal citation of the regulation commonly known as the GDPR, including its EU regulation number and date?",
+    "answer": "REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data.",
+    "relevant_doc_id": "gdpr_regulation.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "According to GDPR recital 4, is the right to personal data protection an absolute right?",
+    "answer": "The right to the protection of personal data is not an absolute right; it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality.",
+    "relevant_doc_id": "gdpr_regulation.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "How many parameters does GPT-3 have, and how does this compare to previous non-sparse language models according to the GPT-3 paper?",
+    "answer": "We train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model.",
+    "relevant_doc_id": "gpt3_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "According to the GPT-3 paper, how is GPT-3 applied to tasks in the few-shot setting, without any gradient updates?",
+    "answer": "GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model.",
+    "relevant_doc_id": "gpt3_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What does the GPT-3 paper report about GPT-3's ability to generate news articles indistinguishable from human writing?",
+    "answer": "GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans.",
+    "relevant_doc_id": "gpt3_paper.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "How does GPT-4 perform on the simulated bar exam compared to GPT-3.5, according to the GPT-4 Technical Report?",
+    "answer": "On a simulated bar exam, GPT-4 achieves a score that falls into the top 10% of test takers. This contrasts with GPT-3.5, which scores in the bottom 10%.",
+    "relevant_doc_id": "gpt4_technical_report.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What infrastructure breakthrough does the GPT-4 Technical Report describe that allowed performance prediction before the final training run?",
+    "answer": "A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
+    "relevant_doc_id": "gpt4_technical_report.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "In how many of the 26 languages tested does GPT-4 surpass the English-language state-of-the-art on translated MMLU variants?",
+    "answer": "On translated variants of MMLU, GPT-4 surpasses the English-language state-of-the-art in 24 of 26 languages considered.",
+    "relevant_doc_id": "gpt4_technical_report.pdf",
+    "category": "academic"
+  },
+  {
+    "query": "What percentage of the human genome does the Wikipedia article state is composed of repetitive DNA sequences?",
+    "answer": "Repetitive DNA sequences comprise approximately 50% of the human genome. About 8% of the human genome consists of tandem DNA arrays or tandem repeats, low complexity repeat sequences that have multiple adjacent copies.",
+    "relevant_doc_id": "human_genome.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What genetic disease does the human genome Wikipedia article link to an expansion of a trinucleotide repeat in the Huntingtin gene on chromosome 4?",
+    "answer": "Huntington's disease results from an expansion of the trinucleotide repeat (CAG) n within the Huntingtin gene on human chromosome 4.",
+    "relevant_doc_id": "human_genome.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "According to the Wikipedia article on the human genome, what percentage of the genome is protected from mutations by purifying selection?",
+    "answer": "Only 10% of the genome seems to be protected from mutations by purifying selection.",
+    "relevant_doc_id": "human_genome.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What economic condition in certain jurisdictions does JPMorgan Chase's 10-K identify as a challenge to fair competition?",
+    "answer": "challenges associated with competing in economies in which the government controls or protects all or a portion of the local economy or specific businesses, or where graft or corruption may be pervasive",
+    "relevant_doc_id": "jpmorgan_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What business consequence does JPMorgan Chase's annual report describe if a jurisdiction's legal framework produces inconsistent or unexpected outcomes?",
+    "answer": "If the legal, regulatory or judicial framework in a particular jurisdiction is susceptible to producing outcomes that are inconsistent, unexpected or contrary to established legal principles, this could create a more difficult business environment for JPMorganChase and could negatively affect its operations and reduce its earnings.",
+    "relevant_doc_id": "jpmorgan_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What governmental policy risk does JPMorgan Chase's 10-K describe that could adversely affect its businesses and results of operations?",
+    "answer": "JPMorganChase's businesses and results of operations could be adversely affected by actions or initiatives by governmental authorities or officials that seek to discourage financial institutions from doing business with companies engaged in certain industries, or conversely, to penalize financial institutions that elect not to do business with such companies.",
+    "relevant_doc_id": "jpmorgan_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "According to the GNU Make Manual, what does the GNU make utility automatically determine when building a large program?",
+    "answer": "GNU make determines automatically which pieces of a large program need to be recompiled, and issues the commands to recompile them.",
+    "relevant_doc_id": "linux_kernel_docs.txt",
+    "category": "technical"
+  },
+  {
+    "query": "What edition, update date, and version of GNU make does the linux_kernel_docs.txt document cover?",
+    "answer": "This is Edition 0.77, last updated 26 February 2023, of The GNU Make Manual, for GNU make version 4.4.1.",
+    "relevant_doc_id": "linux_kernel_docs.txt",
+    "category": "technical"
+  },
+  {
+    "query": "Under what license is the GNU Make Manual permitted to be copied, distributed, and modified?",
+    "answer": "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation.",
+    "relevant_doc_id": "linux_kernel_docs.txt",
+    "category": "technical"
+  },
+  {
+    "query": "What is the full title of NIST Special Publication 800-53 Revision 5, and which task force developed it?",
+    "answer": "NIST Special Publication 800-53 Revision 5 Security and Privacy Controls for Information Systems and Organizations JOINT TASK FORCE",
+    "relevant_doc_id": "nist_sp800_53.pdf",
+    "category": "technical"
+  },
+  {
+    "query": "Under what federal statute and US Code citation was NIST Special Publication 800-53 Revision 5 developed?",
+    "answer": "This publication has been developed by NIST to further its statutory responsibilities under the Federal Information Security Modernization Act (FISMA), 44 U.S.C. § 3551 et seq., Public Law (P.L.) 113-283.",
+    "relevant_doc_id": "nist_sp800_53.pdf",
+    "category": "technical"
+  },
+  {
+    "query": "Can nongovernmental organizations use NIST SP 800-53 Revision 5, and what copyright status does it have in the United States?",
+    "answer": "This publication may be used by nongovernmental organizations on a voluntary basis and is not subject to copyright in the United States. Attribution would, however, be appreciated by NIST.",
+    "relevant_doc_id": "nist_sp800_53.pdf",
+    "category": "technical"
+  },
+  {
+    "query": "What overarching international treaty framework do the Parties to the Paris Agreement state they are also parties to?",
+    "answer": "Being Parties to the United Nations Framework Convention on Climate Change, hereinafter referred to as 'the Convention', Pursuant to the Durban Platform for Enhanced Action established by decision 1/CP.17 of the Conference of the Parties to the Convention at its seventeenth session.",
+    "relevant_doc_id": "paris_agreement.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "What does the Paris Agreement recognize as the basis for an effective and progressive response to the threat of climate change?",
+    "answer": "Recognizing the need for an effective and progressive response to the urgent threat of climate change on the basis of the best available scientific knowledge.",
+    "relevant_doc_id": "paris_agreement.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "According to the Paris Agreement, what human rights obligations must parties consider when taking action to address climate change?",
+    "answer": "Parties should, when taking action to address climate change, respect, promote and consider their respective obligations on human rights, the right to health, the rights of indigenous peoples, local communities, migrants, children, persons with disabilities and people in vulnerable situations.",
+    "relevant_doc_id": "paris_agreement.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "According to Pfizer's 10-K, what are the possible consequences of third-party intellectual property infringement claims against the company?",
+    "answer": "Claims of intellectual property infringement can be costly and time-consuming to resolve, may delay or prevent product launches, and may result in significant royalty payments or damages or potential licensing agreements.",
+    "relevant_doc_id": "pfizer_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What does Pfizer's 10-K state about the company's reliance on IT systems and the types of confidential information they handle?",
+    "answer": "We extensively rely upon sophisticated IT systems (including cloud services) to operate our business. We produce, collect, process, store and transmit large amounts of confidential information (including personal information and intellectual property).",
+    "relevant_doc_id": "pfizer_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What supply chain cybersecurity risk does Pfizer's 10-K identify related to technology developed or maintained by third-party providers?",
+    "answer": "We rely on technology developed, supplied and/or maintained by third-parties that may make us vulnerable to 'supply chain' style cyber-attacks.",
+    "relevant_doc_id": "pfizer_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What was PostgreSQL formerly known as before receiving its current name, according to the PostgreSQL 15 documentation?",
+    "answer": "PostgreSQL Database Management System (also known as Postgres, formerly known as Postgres95)",
+    "relevant_doc_id": "postgresql_manual.pdf",
+    "category": "technical"
+  },
+  {
+    "query": "Which institution holds portions of the copyright for the PostgreSQL Database Management System, according to the PostgreSQL 15.18 manual?",
+    "answer": "Portions Copyright © 1996-2026, PostgreSQL Global Development Group Portions Copyright © 1994, The Regents of the University of California",
+    "relevant_doc_id": "postgresql_manual.pdf",
+    "category": "technical"
+  },
+  {
+    "query": "What does the PostgreSQL 15 manual state about the conditions under which its software and documentation may be used, copied, and distributed?",
+    "answer": "Permission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without a written agreement is hereby granted, provided that the above copyright notice and this paragraph and the following two paragraphs appear in all copies.",
+    "relevant_doc_id": "postgresql_manual.pdf",
+    "category": "technical"
+  },
+  {
+    "query": "How does the Wikipedia article on quantum mechanics define quantum mechanics and at what scale do its unusual characteristics occur?",
+    "answer": "Quantum mechanics, also known as quantum physics, is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms.",
+    "relevant_doc_id": "quantum_mechanics.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "According to the Wikipedia quantum mechanics article, across which scientific disciplines have the concepts and methods of quantum mechanics been applied?",
+    "answer": "Its concepts and methods have been applied across many disciplines, including quantum chemistry, quantum biology, quantum field theory, quantum technology, and quantum information science.",
+    "relevant_doc_id": "quantum_mechanics.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What advanced topics does the Wikipedia quantum mechanics article list, including EPR paradox and density matrix?",
+    "answer": "Advanced topics Relativistic quantum mechanics Quantum field theory Quantum information science Quantum computing Quantum chaos Decoherence EPR paradox Density matrix Scattering theory Quantum statistical mechanics Quantum machine learning",
+    "relevant_doc_id": "quantum_mechanics.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "According to RFC 7540, what two features does HTTP/2 introduce to enable more efficient use of network resources?",
+    "answer": "HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection.",
+    "relevant_doc_id": "rfc_http2.txt",
+    "category": "technical"
+  },
+  {
+    "query": "What does RFC 7540 state about the relationship between the HTTP/2 specification and HTTP/1.1 message syntax?",
+    "answer": "This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged.",
+    "relevant_doc_id": "rfc_http2.txt",
+    "category": "technical"
+  },
+  {
+    "query": "According to RFC 7540, what new server-to-client feature does HTTP/2 introduce beyond request-response exchanges?",
+    "answer": "It also introduces unsolicited push of representations from servers to clients.",
+    "relevant_doc_id": "rfc_http2.txt",
+    "category": "technical"
+  },
+  {
+    "query": "What does Tesla's 10-K recommend about who should service Tesla vehicles?",
+    "answer": "Because of our unique expertise with our vehicles, we recommend that our vehicles be serviced by us or by certain authorized professionals.",
+    "relevant_doc_id": "tesla_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "What charging infrastructure does Tesla's 10-K state must continue to rapidly expand as the Tesla fleet grows?",
+    "answer": "The increasing number of Tesla vehicles also requires us to continue to rapidly increase the number of our Supercharger stations and connectors throughout the world.",
+    "relevant_doc_id": "tesla_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "Which battery cell suppliers does Tesla's 10-K name as current providers for its vehicles and energy storage products?",
+    "answer": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co. Limited (CATL) for these cells. We have to date fully qualified only a very limited number of such suppliers and have limited flexibility in changing suppliers.",
+    "relevant_doc_id": "tesla_10k.txt",
+    "category": "financial"
+  },
+  {
+    "query": "Who are the named co-editors and contributors of the Congressional Research Service's Constitution of the United States—Analysis and Interpretation?",
+    "answer": "Johnny H. Killian George A. Costello Kenneth R. Thomas Co-Editors David M. Ackerman Henry Cohen Robert Meltz Contributors",
+    "relevant_doc_id": "us_constitution.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "Under what public law and US Code citation was preparation of the Constitution Annotated authorized by Congress?",
+    "answer": "HISTORICAL NOTE PUBLIC LAW 91-589, 84 STAT. 1585, 2 U.S.C. § 168 JOINT RESOLUTION Authorizing the preparation and printing of a revised edition of the Constitution of the United States of America--Analysis and Interpretation, of decennial revised editions thereof, and of biennial cumulative supplements to such revised editions.",
+    "relevant_doc_id": "us_constitution.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "How many times since 1913 has Congress ordered a revised edition of the Constitution Annotated, and at what intervals?",
+    "answer": "The Congress, in recognition of the usefulness of this type of document, has in the last half century since 1913, ordered the preparation and printing of revised editions of such a document on six occasions at intervals of from ten to fourteen years.",
+    "relevant_doc_id": "us_constitution.pdf",
+    "category": "legal"
+  },
+  {
+    "query": "According to the World War II Wikipedia article, what decision did Hitler make on July 31, 1940, regarding the Soviet Union?",
+    "answer": "On 31 July 1940, Hitler decided that the Soviet Union should be eliminated and aimed for the conquest of Ukraine, the Baltic states, and Byelorussia.",
+    "relevant_doc_id": "world_war_ii.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "What does the World War II Wikipedia article describe as the outcome of Anglo-American landings in French North Africa in 1942?",
+    "answer": "Anglo-American landings in French North Africa resulted in the region joining the Allies. In August 1942, the Allies succeeded in repelling a second attack against El Alamein and, at a high cost, managed to deliver desperately needed supplies to the besieged Malta.",
+    "relevant_doc_id": "world_war_ii.txt",
+    "category": "wikipedia"
+  },
+  {
+    "query": "According to the World War II Wikipedia article, which five nations became permanent members of the UN Security Council following the war?",
+    "answer": "The great powers that were the victors of the war—France, China, the United Kingdom, the Soviet Union, and the United States—became the permanent members of the UN's Security Council.",
+    "relevant_doc_id": "world_war_ii.txt",
+    "category": "wikipedia"
+  }
+]
